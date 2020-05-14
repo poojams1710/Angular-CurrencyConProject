@@ -1,0 +1,4 @@
+<button (click)="showData()">Generate api content</button>
+<ul *ngFor="let curr of currencies;let i=index">
+    <li>{{curr}} {{rates[i]}}</li>
+</ul>
